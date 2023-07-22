@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  <title>Survey</title>
+  </head>
+  <body>
+    <h1 id="title">Survey</h1>
+    <p id="description">Please complete this survey</p>
+  </body>
+  <form id="survey-form">
+    <fieldset>
+      <h2>Info</h2>
+     <label id="name-label"> Name
+    <input id="name" placeholder="First and Last" required>
+    </label>
+    <label id="email-label">Email <input placeholder="xyz@email.com" type="email" id="email" required>
+    </label>
+    <label id="number-label">Age<input placeholder="13-120" min="13" max="120" type="number" id="number"></label>
+    <label>Gender<select id="dropdown"><option>Male</option><option>Female</option></select></label>
+    </fieldset>
+    <fieldset>
+      <h2>Questions</h2>
+      <label id="questions-label" required>Which option best describes your ethnicity?<label style="padding: 10px;">African American/Black<input value="African" name="race" type="radio"></label><label style="padding: 10px;">European/Caucasian<input name="race" value="value" type="radio"></label>
+<label style="padding: 10px;">Asian<input value="value" name="race" type="radio"></label>
+<label style="padding: 10px;"><input  type="checkbox" value="terms" required>Accept <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">terms and conditions</a></label>
+<label><input value="human" type="checkbox">Check if Human</label>
+<label style="padding: 10px;" id="text">
+  Comments<textarea></textarea></label></label>
+  <label><button id="submit">Submit</button></label>
+   </fieldset>
+  </form>
+</html>

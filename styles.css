@@ -1,0 +1,36 @@
+body {
+    background-color: navy;
+    color: gold;
+    font-family: verdana;
+    text-align: center;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    padding: 10px;
+  }
+  
+  input[type="radio"]{
+    display: block;
+  }
+  
+  a {
+    color: red;
+  }
+  
+  textarea{
+  display: block;
+  padding: 10px;
+  margin-right: 50%;
+  margin-left: 20%;
+  }
+  
+  input[type="radio"]{
+    margin-right: 50%;
+  margin-left: 50%;
+  }
+  
